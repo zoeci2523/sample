@@ -1,0 +1,118 @@
+body{
+	background: #e9e9d4;
+	margin: 1%;
+}
+
+/* translation */
+#lang{
+	vertical-align: top;
+	float: right;
+}
+#lang a{
+	color: #a2bed7;
+	font-size: 8px;
+	font-family: Sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2px;
+	border: solid rgba(162, 190, 215, 0.5);
+}
+
+header{
+	background-color: #2196F3;
+	color: #FFFFFF;
+	border-radius: 2px;
+	padding: 1%;
+	box-shadow: 5px 5px 3px #888888;
+}
+
+h1{
+	font-size: 40px;
+	line-height: 25px;
+	color: #CDDC39;
+	font-weight: 400;
+}
+h2{
+	font-size: 20px;
+	font-weight: 200;
+}
+
+header p{
+	font-size: 13px;
+	height: 10px;
+	font-weight: 200;
+}
+
+/* horizontal menu */
+nav{
+	margin: 2% auto;
+	margin-left: 2%;
+}
+
+.menu{
+	background-color: rgb(171 214 249 / 80%);
+	box-shadow: 5px 5px 3px #888888;
+	display: inline-block;
+	margin: 1%;
+	width: 380px;
+	height: 200px;
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+}
+.menu a{
+	color: #9da92c;
+	text-decoration: none;
+	font-weight: 900;
+}
+.menu p{
+	display: none;
+}
+
+.menu:hover{
+	background-color: rgb(171 214 249 / 100%);
+	
+}
+.menu:hover a{
+	color: #212121;
+}
+.menu:hover p{
+	display: block;
+	font-style: italic;
+	color: #757575;
+}
+
+/* footer */
+.footer{
+	position: relative;
+	height: 100px;
+	font-style: italic;
+	font-size: 50%;
+	clear: both;
+}
+/* let child elements at the bottom of footer */
+.footer-c{
+	position: absolute;
+	height: 30px;
+	bottom: -20px;
+	display: block;
+	color: grey;
+}
+/* let them do not overlap */
+.footer-c:first-child{
+	bottom: 0px;
+}
+
+.footer-c a{
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+
+
+
+
+
